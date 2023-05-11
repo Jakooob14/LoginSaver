@@ -28,10 +28,24 @@ namespace LoginSaver
                         .WrapAround(true)
                         .MoreChoicesText("...")
                         .AddChoices(Platforms)
-                        .AddChoices("[green]Add platform[/]", "[red]Exit[/]"));
+                        .AddChoices("[green]Add platform[/]", "[orange3]Read all[/]", "[red]Exit[/]"));
 
                 if (platform == "[red]Exit[/]") Environment.Exit(0);
-            
+
+                if (platform == "[orange3]Read all[/]")
+                {
+                    Tree tree = new Tree("[red]Platforms[/]");
+                    foreach (string platformS in Platforms)
+                    {
+                        TreeNode node = tree.AddNode($"[orange3]{platformS}[/]");
+                        node.AddNode($"Username: [blue]{LauncherHelper.GetUsername(platformS)}[/]\nPassword: [blue]{LauncherHelper.GetPassword(platformS)}[/]");
+                    }
+                    AnsiConsole.Write(tree);
+                    AnsiConsole.Write("\nPress anything to continue...");
+                    Console.ReadKey();
+                    continue;
+                }
+                
                 string action;
                 if (platform == "[green]Add platform[/]")
                 {
