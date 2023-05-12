@@ -16,7 +16,7 @@ namespace LoginSaver
             Console.Clear();
             Console.WindowWidth = 100;
             Console.WindowHeight = 25;
-
+            
             while (true)
             {
                 ClearConsole();

@@ -18,3 +18,7 @@ C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programm
 C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programming\C#\LoginSaver\LoginSaver\obj\Debug\LoginSaver.pdb
 C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programming\C#\LoginSaver\LoginSaver\bin\Debug\Newtonsoft.Json.dll
 C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programming\C#\LoginSaver\LoginSaver\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programming\C#\LoginSaver\LoginSaver\bin\Debug\LoginSaver.exe.manifest
+C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programming\C#\LoginSaver\LoginSaver\bin\Debug\LoginSaver.application
+C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programming\C#\LoginSaver\LoginSaver\obj\Debug\LoginSaver.exe.manifest
+C:\Users\jakub.sokol\OneDrive - Střední škola EDUCHEM, a.s\Dokumenty\Programming\C#\LoginSaver\LoginSaver\obj\Debug\LoginSaver.application
