@@ -14,8 +14,8 @@ namespace LoginSaver
             RefreshPlatforms();
             
             Console.Clear();
-            Console.WindowWidth = 100;
-            Console.WindowHeight = 25;
+            // Console.WindowWidth = 100;
+            // Console.WindowHeight = 25;
             
             while (true)
             {
@@ -161,6 +161,7 @@ namespace LoginSaver
             Rule rule = new Rule("[bold yellow]Login Saver v420.69[/]\n");
             rule.Style = Style.Parse("yellow");
             AnsiConsole.Write(rule);
+            Console.WriteLine();
         }
 
         private static void RefreshPlatforms()

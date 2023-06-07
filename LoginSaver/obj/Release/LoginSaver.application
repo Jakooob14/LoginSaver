@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="LoginSaver.exe.manifest" size="7205">
+    <dependentAssembly dependencyType="install" codebase="LoginSaver.exe.manifest" size="7189">
       <assemblyIdentity name="LoginSaver.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qeSmR892Kv47FmL8bNTX5bJy9utPBpvztyP9VjeANgg=</dsig:DigestValue>
+        <dsig:DigestValue>5HLhaKwR7tqKJVnAPeBUQFOFU6K4IK2blY8exsOgKYg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
